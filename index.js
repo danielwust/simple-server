@@ -11,7 +11,7 @@ dotenv.config({
 const app = express();
 
 app.get('/', function (req, res) {
-  res.send(`Database is running on: ${databaseUrl}`);
+  res.send(`Database is running!`);
 })
 
 app.listen(port, () => {
